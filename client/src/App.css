@@ -1,0 +1,62 @@
+.App {
+  width: 100vw;
+  height: 94vh;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1000px;
+  min-height: 300px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.task_container {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.task {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 5px;
+}
+
+.input{
+  border: 1px solid #eee;
+  outline: none;
+  width: 80%;
+  border-radius: 6px;
+  padding: 5px;
+}
